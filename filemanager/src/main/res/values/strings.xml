@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">File Manager</string>
+    <string name="file_operations_demo">File Operations Demo</string>
+    <string name="create_a_dummy_file">Create a Dummy File</string>
+    <string name="open_files">Open files</string>
+    <string name="open_folder">Open Folder</string>
+    <string name="download_image_to_app_folder">Download Image to App Folder</string>
+    <string name="download_image_url_to_downloads">Download Image from Url to Downloads</string>
+    <string name="download_successful">Image Download successful to: </string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="transistion_image">Image_Transistion</string>
+    <string name="download_error_default_message">Unable to download the file, please try after sometime</string>
+    <string name="viewpager">viewpager</string>
+    <string name="launch_file_preview">Launch File Preview</string>
+    <string name="add_files">Add Files</string>
+
+</resources>

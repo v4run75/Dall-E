@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/nested_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/open_file_bt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_normal"
+                android:layout_marginTop="@dimen/spacing_huge"
+                android:layout_marginEnd="@dimen/spacing_normal"
+                android:padding="@dimen/spacing_normal"
+
+                android:text="@string/open_files" />
+
+            <Button
+                android:id="@+id/open_folder_bt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_normal"
+                android:padding="@dimen/spacing_normal"
+                android:text="@string/open_folder" />
+
+            <Button
+                android:id="@+id/download_image_download_bt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_normal"
+                android:padding="@dimen/spacing_normal"
+                android:text="@string/download_image_url_to_downloads" />
+
+            <Button
+                android:id="@+id/download_image_app_folder_bt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_normal"
+                android:padding="@dimen/spacing_normal"
+                android:text="@string/download_image_to_app_folder" />
+
+            <Button
+                android:id="@+id/clear_cache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_normal"
+                android:padding="@dimen/spacing_normal"
+                android:text="@string/clear_cache" />
+
+
+            <Button
+                android:id="@+id/launch_file_preview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_normal"
+                android:padding="@dimen/spacing_normal"
+                android:text="@string/launch_file_preview" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+</layout>

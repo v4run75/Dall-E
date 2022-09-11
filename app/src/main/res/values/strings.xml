@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dall-E</string>
+    <string name="title_home">Home</string>
+    <string name="title_trends">Trends</string>
+
+    <string name="com_auth0_client_id">IC7UALIsyzqB6H8mbMjj38NA5L7eNkIX</string>
+    <string name="com_auth0_domain">dev-csmmap7e.us.auth0.com</string>
+    <string name="login">Log in</string>
+    <string name="logout">Log out</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <Button
+        android:id="@+id/sync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/round_button"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        android:text="Sync"/>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/round_button"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        android:text="Update"/>
+
+    <Button
+        android:id="@+id/new_key"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/round_button"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        android:text="New Key"/>
+
+    <Button
+        android:id="@+id/backup"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/round_button"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        android:text="Backup Service"/>
+
+</LinearLayout>
